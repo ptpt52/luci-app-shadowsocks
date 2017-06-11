@@ -27,3 +27,5 @@ config servers
 
 config access_control
 	option self_proxy '1'
+	option lan_target 'SS_SPEC_WAN_AC'
+	option wan_bp_list '/usr/share/natcapd/cniplist.set'
